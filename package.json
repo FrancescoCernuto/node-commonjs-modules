@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "main": "name.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node name.js",
+    "dev": "node --watch name.js"
+   },
+
   "author": "Francesco Cernuto",
   "license": "ISC",
   "description": ""
